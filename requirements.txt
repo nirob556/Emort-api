@@ -1,7 +1,12 @@
-requests
-pycryptodome
-protobuf>=6.33.2  # তোমার protobuf এরর ফিক্স করার জন্য নতুন ভার্সন দরকার, latest টা নেবে
-colorama
-urllib3
-pillow
 flask
+gunicorn
+requests
+aiohttp
+urllib3
+psutil
+pytz
+pyjwt
+pycryptodome
+protobuf
+protobuf-decoder
+cfonts
