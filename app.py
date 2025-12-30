@@ -264,7 +264,7 @@ async def TcPOnLine(ip, port, key, iv, AutHToKen, reconnect_delay=0.5):
                                 await SEndPacKeT(whisper_writer , online_writer , 'ChaT' , JoinCHaT)
 
 
-                                message = f'[B][C]{get_random_color()}\n- WeLComE To Emote Bot ! \n\n{get_random_color()}- Commands : @a {xMsGFixinG("123456789")} {xMsGFixinG("909000001")}\n\n[00FF00]Dev : @{xMsGFixinG("JOBAYAR_AHMED")}'
+                                message = f'[B][C]{get_random_color()}\n- WeLComE To Emote Bot ! \n\n{get_random_color()}- Commands : @a {xMsGFixinG("123456789")} {xMsGFixinG("909000001")}\n\n[00FF00]Dev : @{xMsGFixinG("NIROB_BBz")}'
                                 P = await SEndMsG(0 , message , OwNer_UiD , OwNer_UiD , key , iv)
                                 await SEndPacKeT(whisper_writer , online_writer , 'ChaT' , P)
                             except:
@@ -424,7 +424,7 @@ async def TcPChaT(ip, port, AutHToKen, key, iv, LoGinDaTaUncRypTinG, ready_event
                         if inPuTMsG in ("hi" , "hello" , "fen" , "salam"):
                             uid = response.Data.uid
                             chat_id = response.Data.Chat_ID
-                            message = 'Hello Im Dev BesTo\nTelegram : @JOBAYAR_AHMED'
+                            message = 'Hello Im Dev BesTo\nTelegram : @NIROB_BBZ'
                             P = await SEndMsG(response.Data.chat_type , message , uid , chat_id , key , iv)
                             await SEndPacKeT(whisper_writer , online_writer , 'ChaT' , P)
                         response = None
